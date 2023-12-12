@@ -14,7 +14,5 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {
-        "lrdemo/lrmodulebuilder": "1.0.*"
-    }
+    "require": {}
 }
