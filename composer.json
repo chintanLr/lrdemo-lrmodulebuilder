@@ -15,6 +15,6 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "lrdemo/lrmodulebuilder": "*"
+        "lrdemo/lrmodulebuilder": "1.0.*"
     }
 }
