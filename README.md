@@ -58,6 +58,10 @@ Lrdemo\Lrmodulebuilder\Providers\LrbuilderServiceProvider::class,
 php artisan vendor:publish --tag=lrmodulebuilder-migrations
 ```
 
+```
+php artisan migrate
+```
+
 
 ```
 php artisan serve
