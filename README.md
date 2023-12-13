@@ -30,10 +30,6 @@ php artisan key:generate
 composer config repositories.lrdemo-lrmodulebuilder vcs https://github.com/chintanLr/lrdemo-lrmodulebuilder
 ```
 
-```
-composer require chintanLr/repo:lrdemo-lrmodulebuilder
-```
-
 - install the package
 
 ```
