@@ -13,5 +13,9 @@ class LrbuilderServiceProvider extends ServiceProvider
 
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'lrmodulebuilder');
 
+        $this->publishes([
+            __DIR__.'/../database/migrations' => database_path('migrations'),
+        ], 'lrmodulebuilder-migrations');
+
     }
 }
