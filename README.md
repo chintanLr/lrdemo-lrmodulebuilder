@@ -54,4 +54,4 @@ Lrdemo\Lrmodulebuilder\Providers\LrbuilderServiceProvider::class,
 php artisan serve
 ```
 
-Visit http://localhost:8000/contact in your browser to view the demo.
+Visit http://localhost:8000/builder in your browser to view the demo.
