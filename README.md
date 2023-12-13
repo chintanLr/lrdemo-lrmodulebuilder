@@ -24,6 +24,12 @@ cp .env.example .env
 php artisan key:generate
 
 ```
+- Install livewire
+
+```
+composer require livewire/livewire
+```
+
 - Require package in composer.json
 
 ```
@@ -45,6 +51,13 @@ composer require lrdemo/lrmodulebuilder
 
 Lrdemo\Lrmodulebuilder\Providers\LrbuilderServiceProvider::class,
 ```
+
+- Create package migration
+
+```
+php artisan vendor:publish --tag=lrmodulebuilder-migrations
+```
+
 
 ```
 php artisan serve
